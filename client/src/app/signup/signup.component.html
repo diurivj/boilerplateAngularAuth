@@ -1,0 +1,12 @@
+<div>
+  <label for="email">Email</label>
+  <br/>
+  <input type="email" name="email" placeholder="Ingresa tu email" [(ngModel)]="email
+  " />
+  <br/><br/>
+  <label for="password">Password</label>
+  <br/>
+  <input type="password" name="password" placeholder="Ingresa tu contraseña" [(ngModel)]="password" />
+  <br/><br/>
+  <input type="submit" value="Signup" (click)="handleSignup()" />
+</div>
